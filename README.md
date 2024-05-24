@@ -1,4 +1,4 @@
-# Speech Translation App: https://huggingface.co/spaces/diaL42/speechTranscription
+# Speech Translation App: `https://huggingface.co/spaces/diaL42/speechTranscription`
 
 ## Note
 **NOTE:** The deployed website `https://huggingface.co/spaces/diaL42/speechTranscription` uses CPU for execution; therefore, the output might be a bit slow. For optimal performance, it's recommended to use the .ipynb file mentioned above using colab TPU.
