@@ -32,7 +32,7 @@ The Whisper large-v3 model is trained on 1 million hours of weakly labeled audio
 
 The large-v3 model shows improved performance over a wide variety of languages, showing 10% to 20% reduction of errors compared to Whisper large-v2.
 
-**Model details**
+Model details
 Whisper is a Transformer based encoder-decoder model, also referred to as a sequence-to-sequence model. It was trained on 1 million hours of weakly labeled audio and 4 million hours of pseudolabeled audio collected using Whisper large-v2.
 
 The models were trained on either English-only data or multilingual data. The English-only models were trained on the task of speech recognition. The multilingual models were trained on both speech recognition and speech translation. For speech recognition, the model predicts transcriptions in the same language as the audio. For speech translation, the model predicts transcriptions to a different language to the audio.
