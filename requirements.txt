@@ -1,0 +1,7 @@
+torch 
+transformers 
+datasets 
+accelerate 
+IPython 
+gradio
+sentencepiece
