@@ -1,2 +1,21 @@
-# hack_to_crack
-This repository contains the files for the project made for the hack_to_crack 1.0 hackathon organised by Lucknow AI
+# Speech Translation App
+
+## Overview
+This Speech Translation App is powered by Whisper v3 and Gradio, providing a seamless experience for translating spoken language into text. It leverages various libraries such as Torch, Transformers, Datasets, Accelerate, IPython, Gradio, and Sentencepiece to offer accurate and efficient translation capabilities.
+
+## Note
+**NOTE:** The deployed website uses CPU for execution; therefore, the output might be a bit slow. For optimal performance, it's recommended to use the .ipynb file mentioned above.
+
+## Requirements
+- Torch
+- Transformers
+- Datasets
+- Accelerate
+- IPython
+- Gradio
+- Sentencepiece
+
+## Installation
+You can install the required dependencies using pip:
+```bash
+pip install torch transformers datasets accelerate ipython gradio sentencepiece
