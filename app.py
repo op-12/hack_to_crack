@@ -30,9 +30,6 @@ transcription_pipe = pipeline(
     device=device,
 )
 
-# Assume 'pipe' is defined elsewhere and performs text processing
-# pipe = pipeline("text-generation", model="gpt-2", device=device)  # Example for illustration
-
 # Function to transcribe and process text
 def transcribe_and_process(audio):
     if audio is None:
@@ -59,7 +56,7 @@ outputs = [
 ]
 
 examples = [
-    ["ben.mp3"]  # Replace with the actual path to your audio file
+    ["ben.mp3"] 
 ]
 
 app = gr.Interface(
